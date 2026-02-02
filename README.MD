@@ -7,6 +7,6 @@ Projeto backend em Spring Boot com front-end em Thymeleaf para uma lanchonete: c
 - **Objetivo:** MVP para aceitar pedidos online, gerenciar cardápio e visualizar pedidos.
 ## 📊 Estrutura do Projeto
 
-![Diagrama de Classes](diagrama-classes.svg)
+![Diagrama de Classes](src/main/resources/static/diagrama-classes.svg)
 
 
