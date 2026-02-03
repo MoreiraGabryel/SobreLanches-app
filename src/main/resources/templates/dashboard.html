@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel Administrativo</title>
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Painel Administrativo</h1>
+    <p>Bem-vindo ao painel de administração. Utilize os links abaixo para gerenciar os recursos do sistema:</p>
+    <p>Vai tomando!!</p>
+    <nav>
+        <ul>
+            <li><a th:href="@{/produtos}">Gerenciar Produtos</a></li>
+            <li><a th:href="@{/produtos/removidos}">Produtos Removidos</a></li>
+            <li><a th:href="@{/clientes}">Gerenciar Clientes</a></li>
+            <li><a th:href="@{/pedidos}">Gerenciar Pedidos</a></li>
+        </ul>
+    </nav>
+
+    <div class="logout mt-4">
+        <a th:href="@{/logout}">Logout</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Recuperar Senha</title>
+</head>
+<body>
+<h2>Recuperar Senha</h2>
+
+<form th:action="@{/cliente/esqueci-senha}" method="post">
+    <label>Email:</label>
+    <input type="email" name="email" />
+    <br/>
+
+    <button type="submit">Enviar instruções</button>
+</form>
+
+<a th:href="@{/login}">Voltar para Login</a>
+</body>
+</html>
