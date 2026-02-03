@@ -8,7 +8,7 @@ Projeto backend em Spring Boot com front-end em Thymeleaf para uma lanchonete: c
 ## 📊 Estrutura do Projeto
 
 ![Diagrama de Classes](src/main/resources/static/diagrama-classes.svg)
-! [ Diagrma de Classes] (src/main/resources/static/Diagrama03-02-2026.png)
+! [ Diagrma de Classes] (src/main/resources/static/diagrama.svg)
 
 
 
